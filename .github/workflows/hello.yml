@@ -4,16 +4,14 @@ on:
     branches:
       - main
 jobs:      
-  job1:
+  conditional:
     runs-on: ubuntu-latest
     steps:
-      - name: Step 1 - Greet
-        run: echo "Hello from step 1"
-  job2:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Job 2 step
-         run: echo "This is Job 2"
+      - name: Print Messege
+        run: echo "this slays runs"
+      - name: Run only on success
+        if: seccess()
+        run: echo "Previous step passed"
 
 
 
