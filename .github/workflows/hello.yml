@@ -9,6 +9,13 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hello Devops students for students for sunday class!!"
+      - name: Step 1 -Greet 
+        run: echo "Hello from step 1!!"
+      - name: Step 2 -Greet 
+        run: pwd
+      - name: Step 3 - Lit files
+        run: Ls -la
+      
+        
+      
         
