@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-         run: echo "Hello Devops students for students for sunday class!!"
+        run: echo "Hello Devops students for students for sunday class!!"
         
