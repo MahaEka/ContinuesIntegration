@@ -9,11 +9,11 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Step 1 -Greet 
-        run: echo "Hello from step 1!!"
+      - name: Step 1 - Greet 
+        run: echo "Hello from step 1"
       - name: Step 2 -Greet 
         run: pwd
-      - name: Step 3 - Lit files
+      - name: Step 3 - List files
         run: Ls -la
       
         
